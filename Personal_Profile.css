@@ -1,0 +1,538 @@
+
+ul{
+
+    list-style-type:none;   /*remove bullets */
+    margin:0px;
+    overflow: hidden;
+    background-color: black;
+}
+li{
+    float: left;
+    font-weight: 50px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+li a{
+    display: block;
+    padding:15px 95px;
+    color: white;
+    text-align: center;
+    text-decoration: none;  
+    
+}
+li a:hover {
+    background-color:#228B22;  /*rgb(95,95,95)*/
+  }
+
+
+
+  .section{
+     margin: 150px; 
+      
+  }
+  .home{
+    background-color:#ECF0F1 ; 
+      margin: 2%;
+  }
+
+  .home_data{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    /* margin-left:270px; */
+    text-align:center
+    
+  }
+  .home_name{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#1A5276;
+  }
+  .social_icon{
+      display: flex;
+      width: 10px;
+      height: 10px;
+      margin-left:270px;
+      padding-left:50px;
+
+  }
+   .home .home_data .img1{
+    width:150px;
+    height:180px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:30px;
+    
+  } 
+  .home .home_data .social_link{
+      margin-left:30px;
+      padding-top:20px;
+      padding-bottom:30px;
+      padding:1px;
+  }
+
+  .about .section_title{
+      font-size:28px;
+      margin-left:100px;
+      margin-top: 10px;
+      padding-top:30px;
+      color: black
+
+  }
+
+  .about{
+    background-color:#ECF0F1 ; 
+      margin: 2%;  
+     
+  }
+
+  .about .about_content .about_text{
+    max-width:1000px;  
+    margin-left:230px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color:black;
+    padding-bottom: 45px;
+
+  }
+
+  .btns{
+      display: inline;
+      margin-left:450px;
+      padding:55px;
+  }
+  .btn1{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding:7px;
+    border-radius: 12px;
+    cursor: pointer;
+    border: none;
+    background-color:#228B22;
+    color:white;
+
+  }
+
+  .btn2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding:7px;
+    border-radius:12px;
+    cursor: pointer;
+    border: none;
+    background-color:#228B22;
+    color:white;
+    margin-left:10px;
+
+  }
+
+  .about .info_title{
+    font-size:25px;
+    margin-left:150px;
+    margin-top: 10px;
+    padding-top:30px;
+    color: black
+
+}
+
+  .about .personal_info{
+      width:80%;
+      margin-left:150px;
+      margin-right:30px;
+      margin-top:0px;
+      margin-bottom:230px;
+      
+  }
+
+  .about .personal_info .column1{
+      
+      float:left;
+      width:40%;
+      /* background-color: rebeccapurple; */
+      padding:20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 15px;
+      color:black;
+      
+      
+  }
+  
+  .about .personal_info .column2{
+    width:40%;
+    float: left;   
+    /* background-color: red; */
+    padding:20px;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    color:black;
+    
+}
+
+  .row:after {                /*clearing floats to emerge this section with about only */
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .Skills{
+     background-color:#ECF0F1 ;
+    margin: 2%;
+  }
+
+  .Skills .skills_title{
+    font-size:28px;
+    margin-left:180px;
+    margin-top: 10px;
+    padding-top:30px;
+    color: black
+
+}
+
+  .Skills .box-container {
+      width:80%;
+      display:flex;                /*to divide space and give some part to each(horizontal line)*/
+  }
+
+  .card_container{
+    width:80%;
+  }
+
+       .card1, .card2 {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 40%;
+        background-color:white;
+        
+      }
+      
+      .card1, .card2:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+      
+      .container {
+        padding: 2px 16px;
+      }
+
+      .card1{
+        width:40%;
+        float: left;
+        margin-left:190px;
+        
+
+      }
+      .card2{
+        width:40%;
+        float: right;
+       
+       
+      }
+
+      .MySkills{
+        width:80%;
+        margin-right:0px;
+        margin-top:0px;
+        margin-left:180px;
+        margin-bottom:100px;
+    }
+  
+    .MySkills .column3{
+        
+        float:left;
+        width:40%;
+        /* background-color: rebeccapurple; */
+        padding:30px 10px ;
+       
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        color:black;
+      
+    }
+    
+   .MySkills .column4{
+      width:40%;
+      float: left;   
+      /* background-color: red; */
+      padding-left:90px;
+      padding-top:30px;
+      
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 15px;
+      color:black;
+      
+  }
+
+  .MySkills .skill_item .progress {
+    background-color: #e3e3e3;
+    border-radius:4px;
+    height:8px;
+    overflow: hidden;
+    width:100%
+    /* position: relative; */
+  }
+
+  .MySkills .skill_item .progress .progress_in {
+    background-color: red;
+    /* position: absolute; */
+    border-radius:4px;
+    height:100%;
+    left:0;
+    top:0;
+    
+
+  }
+
+  .MySkills .skill_item .progress .progress_in .skill-percent {
+    display:none;
+  }
+
+  .contact-me{
+    margin-left:450px;
+  }
+   .contact-me u{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    color:black;
+    margin-left:70px;
+
+  }
+
+  .btn3{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding:10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color:#228B22;
+    color:white;
+    margin-left:18%;
+  }
+
+  .btn1:hover,.btn2:hover,.btn3:hover, .btn4:hover{
+    background-color: #ec1839;
+  }
+
+  .contact{
+    background-color:#ECF0F1 ; 
+      margin: 2%;  
+     
+  }
+
+  .contact .contact_title{
+    font-size: 28px;
+    margin-left:180px;
+  
+  }
+
+  .contact .row2, .row4{
+    display:inline-flex;
+    width:100%
+    
+  }
+
+  .contact .contact_info_icon{
+    flex:0 0 33.33%;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .contact .contact_info_icon .icon{
+    display: inline-block;
+    color:#ec1839;
+  }
+
+  .contact .contact_info_icon .icon .fa{
+    font-size: 30px;
+  }
+
+  .contact .contact_info_icon h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+
+  }
+
+  .contact .contact_info_icon p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+  }
+
+  .contact .contact-form {
+    max-width: 100%; 
+    flex:0 0 100%; 
+    margin-left:350px;
+  }
+  .contact .contact-form .col-6{
+    flex:0 0 50%;
+    max-width: 50%;
+    
+  }
+
+  .contact .contact-form .col-12{
+    flex:0 0 80%;
+    max-width: 80%;
+    
+  }
+
+  .contact .contact-form .form-item{
+    margin-bottom: 20px;
+  }
+
+  .contact .contact-form .form-item .form-control{
+    width:100%;
+    height:30px;
+    border-radius: 20px;
+    border:1px solid #A6ACAF ;
+    padding:10px 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+  }
+
+  #textarea{
+    height:120px;
+  }
+
+  .btn4{
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    padding:10px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    background-color:#228B22;
+    color:white;
+    margin-bottom: 90px;;
+
+  }
+
+  @media(max-width:1148px){
+    ul{
+      display: flex;
+      flex-direction: column;
+    }}
+
+    @media(max-width:1292px){
+      ul{
+        display: flex;
+        flex-direction: column;
+      }
+      .card1, .card2{
+        float: unset;
+      }
+      .card1, .card2{
+        margin-left: 350px;
+
+      }
+
+      .card2{
+        margin-top: 30px;
+      }
+
+      .contact-me{
+        margin-left:340px;
+      }
+      .about .about_content .about_text{
+        margin-left:80px;
+       }
+
+       .btns{
+        margin-left: 190px;
+      }
+      .btn3{
+        margin-left: 24%;
+      }
+  
+    }
+
+ @media(max-width:998px){
+  ul{
+    display: flex;
+    flex-direction: column;
+  }
+   
+    
+  .contact-me u{
+    margin-left:-60px;
+  }
+  .contact-me a{
+    margin-left:80px;
+  }  
+
+  } 
+  @media(max-width:570px){
+    ul{
+      display: flex;
+      flex-direction: column;
+    }
+    .btns{
+      margin-left: 30px;
+    }
+
+    .about .personal_info{
+      margin-left:170px ;
+    }
+    
+    .home .home_data .social_link{
+      padding:2px;
+    }
+    .about .personal_info .column1,.column2{
+      font-size: 80px;
+    }
+    .contact-me p{
+   
+      margin-left:-120px;
+    }
+    .contact-me a{
+      margin-left:80px;
+    }  
+
+
+
+  }
+  @media(max-width:498px){
+    ul{
+      display: flex;
+      flex-direction: column;
+    }
+    /* .home .home_data .social_link{
+      padding:4px;
+    } */
+    .btns{
+      display: flex;
+      flex-direction: column;
+      margin-left: 3px;
+    }
+    .about .personal_info .column1{
+      font-size: 80px;
+    }
+
+    .contact-me{
+      margin-left:40px;
+    }
+
+    .contact-me u{
+      margin-left:-60px;
+    }
+    .contact-me a{
+      margin-left:80px;
+    }  
+
+
+  }
+  @media(max-width:360px){
+    ul{
+      display: flex;
+      flex-direction: column;
+    }
+    .btns{
+      display: flex;
+      flex-direction: column;
+      
+    }
+  }
+
+
+
+     
